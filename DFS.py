@@ -12,7 +12,7 @@ def depthFirstSearch(graph, source):
 
 # Recursive verison of the algorithm.
 def depthFirstSearchRecursive(graph, source):
-  print(source)
+  print(source, end=" ")
 
   for n in graph[source]:
     depthFirstSearchRecursive(graph, n)
