@@ -11,7 +11,7 @@ def coinChange(coins, amount: int) -> int:
                 coinsItself[a] = coinsItself[a - c] + [c]
 
     if da[amount] != float("inf"):
-        return coinsItself[amount]
+        return coinsItself
     else:
         return -1
 
