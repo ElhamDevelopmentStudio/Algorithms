@@ -1,3 +1,8 @@
+"""
+here we find the multiplication result of highest 3 numbers in an array, we also consider if there is two high negative number the result of them would be a positive and might be higher than 3 positive number so we adjust our solution accordingly.
+source: https://www.youtube.com/watch?v=bC7o8P_Ste4&t=738s
+"""
+
 def HighestProduct(arr):
   arr.sort(reverse = True)
   product = 1
