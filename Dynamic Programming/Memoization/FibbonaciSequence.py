@@ -1,3 +1,9 @@
+"""
+Source: https://www.youtube.com/watch?v=oBt53YbR9Kk
+Description: Used memoization technique to reduce the time complexity from O(2^n) to O(n)
+and space complexity remained the same O(n)
+"""
+
 def fib(n, memo = {}):
   if n in memo:
     return memo[n]
