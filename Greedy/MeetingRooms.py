@@ -1,8 +1,4 @@
-meetings = [
-  [0, 30],
-  [5, 10],
-  [15, 20]
-]
+meetings = list(map(int, input().split()))
 
 timeline = []
 currentTime = 0

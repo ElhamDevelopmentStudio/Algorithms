@@ -4,10 +4,10 @@ source: https://www.youtube.com/watch?v=bC7o8P_Ste4&t=738s
 """
 
 def largestPermutation(arr, swapNumber):
-  copy = sorted(arr, reverse=True)
+  copy = sorted(arr, reverse=False)
   
   for n in range(swapNumber):
-    biggest = copy.pop(0)
+    biggest = copy.pop(-1)
     bigIndex = arr.index(biggest)
     if arr[n] < biggest:
       arr[n], arr[bigIndex] = arr[bigIndex], arr[n]
