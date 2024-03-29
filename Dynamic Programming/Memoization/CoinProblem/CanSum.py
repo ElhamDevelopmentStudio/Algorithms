@@ -1,3 +1,8 @@
+"""
+Source: https://www.youtube.com/watch?v=oBt53YbR9Kk
+Description: Given an array of coins and a target value find out whether or not you can sum up to the target, return true if so and false if not.
+"""
+
 def canSum(target, coins, memo = {}):
   if target in memo:
     return memo[target]
