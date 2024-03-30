@@ -10,7 +10,7 @@ def fib(n, memo = {}):
   if n <= 2:
     return 1
   else:
-    memo[n] = fib(n - 1) + fib(n - 2)
+    memo[n] =  fib(n - 1) + fib(n - 2)
     return memo[n]
   
 print(fib(200))

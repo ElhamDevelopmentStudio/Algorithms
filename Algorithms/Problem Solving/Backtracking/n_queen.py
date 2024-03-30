@@ -1,4 +1,3 @@
-
 cols = set()
 negDiag = set()
 posDiag = set()
